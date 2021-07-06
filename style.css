@@ -1,0 +1,250 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.nav-bar {
+    display: flex;
+    background: white;
+    box-shadow: -2px -1px 10px 0px black;
+}
+
+.nav-icon {
+    width: 45%;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+}
+
+.nav-icon span{
+    color: rgb(255, 153, 0);
+}
+
+.nav-items {
+    width: 45%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.nav-items ul{
+    list-style: none;
+}
+
+.nav-items ul li a{
+    text-decoration: none;
+    color: rgb(59, 48, 44);
+    font-weight: 600;
+    float: left;
+    padding-left: 30px;
+}
+
+.headerContent{
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.content{
+    width: 45%;
+    margin-left: 5%;
+}
+
+.content h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(59, 48, 44);
+}
+
+.contentText{
+    margin-top: 5%;
+}
+
+.content span{
+color: rgb(255, 153, 0);
+}
+
+.contentText p{
+    font-weight: 700;
+    color: rgba(78, 67, 62, 0.692);
+    margin-bottom: 70px;
+}
+
+.content a{
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(orange,red);
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+
+.content img{
+    width: 100%;
+}
+
+.aboutMe{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+.aboutMeContent{
+    width: 40%;
+    margin-left: 5%;
+}
+
+.aboutMeContent img{
+    margin-top: 10%;
+    width: 58%;
+    margin-left: 25%;
+    height: 90%;
+}
+
+.meContentText{
+    margin-top: 5%;
+}
+
+.aboutMeContent h1{
+    font-size: 40px;
+}
+
+.aboutMeContent p{
+    font-weight: 700;
+    color: rgba(78, 67, 62, 0.692);
+    margin-bottom: 70px;
+}
+
+.aboutMeContent a{
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(orange,red);
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+.recipies {
+    background: #e8e5e5;
+    padding-bottom: 6%;
+}
+
+
+.recepieHeader{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.recepieHeader h1{
+    font-size: 40px;
+}
+
+.recepieHeader p{
+    font-weight: 600;
+    color:rgba(78, 67, 62, 0.692);
+}
+
+.recipieGallery{
+    display: flex;
+}
+
+.recipieDetails{
+    width: 23%;
+    margin-left: 5%;
+    box-shadow: 1px 1px 13px 0px #000000c9;
+    padding: 2%;
+    border-radius: 20px;
+    background: white;
+}
+
+.recipieImage img{
+    width: 100%;
+}
+
+#imageResize{
+    border-radius: 20px;
+}
+
+.recipieContex h1{
+    font-size: 25px;
+}
+
+.recipieContext h1{
+    font-size: 30px;
+}
+
+.recipieContext p{
+    font-weight: 600;
+    color: rgba(78, 67, 62, 0.692);
+}
+
+.recipieContext a{
+    text-decoration: none;
+    color: rgba(78, 67, 62, 0.692);;
+}
+
+.followers {
+    background: #e8e5e5;
+    padding-top: 1px;
+    padding-bottom: 6%;
+}
+
+.followersContent {
+    display: flex;
+    background: white;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.followermedia {
+    width: 25%;
+    margin: auto;
+    padding-left: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.followermedia h1{
+    font-size: 40px;
+}
+
+.followermedia p{
+    color:rgba(78, 67, 62, 0.692);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+footer{
+    padding: 5%;
+    background:#343538;
+}
+
+.footerText{
+    width: 50%;
+    margin: auto;
+}
+
+.textColor{
+    color: gray;
+}
+
+.footerText h1 {
+    text-align: center;
+}
+
+.footerText p{
+    text-align: center;
+}
+
+footer span{
+    color: rgb(255, 153, 0);;
+}
+
+footer p{
+    color: rgb(219, 213, 213);
+}
+
