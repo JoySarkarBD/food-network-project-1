@@ -3,6 +3,8 @@ body{
     margin: 0;
 }
 
+/* Nav Section CSS Start */
+
 .nav-bar {
     display: flex;
     background: white;
@@ -39,6 +41,10 @@ body{
     float: left;
     padding-left: 30px;
 }
+
+/* Nav Section CSS End */
+
+/* Header Section CSS Start */
 
 .headerContent{
     display: flex;
@@ -84,6 +90,10 @@ color: rgb(255, 153, 0);
     width: 100%;
 }
 
+/* Header Section CSS End */
+
+/* About Section CSS Start */
+
 .aboutMe{
     display: flex;
     background-image: url(images/shapes/7.png);
@@ -124,6 +134,11 @@ color: rgb(255, 153, 0);
     padding: 20px 40px;
     border-radius: 50px;
 }
+
+/* About Section CSS End */
+
+/* Recepies Section CSS Start */
+
 .recipies {
     background: #e8e5e5;
     padding-bottom: 6%;
@@ -186,6 +201,10 @@ color: rgb(255, 153, 0);
     color: rgba(78, 67, 62, 0.692);;
 }
 
+/* Recepies Section CSS End */
+
+/* Followers Section CSS Start */
+
 .followers {
     background: #e8e5e5;
     padding-top: 1px;
@@ -218,6 +237,10 @@ color: rgb(255, 153, 0);
     font-weight: 600;
 }
 
+/* Followers Section CSS End */
+
+/* Footer Section CSS Start */
+
 footer{
     padding: 5%;
     background:#343538;
@@ -247,4 +270,6 @@ footer span{
 footer p{
     color: rgb(219, 213, 213);
 }
+
+/* Footer Section CSS End */
 
